@@ -1,6 +1,10 @@
 import streamlit as st
 # ターミナルで streamlit run streamlit_todo.py と打つと開く
 
+st.set_page_config(
+    page_title="ToDo List",
+)
+
 # Todo追加用関数
 def add_todo():
     if st.session_state.new_todo:

@@ -1,15 +1,6 @@
 import streamlit as st
-import streamlit.components.v1 as components
 # ターミナルで streamlit run streamlit_todo.py と打つと開く
 
-components.html(
-    """
-    <script>
-        document.documentElement.lang = 'ja';
-    </script>
-    """,
-    height=0,
-)
 st.set_page_config(
     page_title="ToDo List",
 )
